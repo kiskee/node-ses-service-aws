@@ -26,6 +26,10 @@ In order to deploy the example, you need to run the following command:
 $ serverless deploy
 ```
 
+
+
+![Image text](https://danielmecoss.s3.amazonaws.com/assets/microservicesDiagram-5bec2748.png)
+
 After running deploy, you should see output similar to:
 
 ```bash
