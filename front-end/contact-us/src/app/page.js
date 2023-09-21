@@ -14,7 +14,7 @@ export default function Home() {
     */
 
     const res = await fetch(
-      "https://dk57lvcpx7.execute-api.us-east-1.amazonaws.com/dev/contact-us",
+      "https://tr6hrik8h4.execute-api.us-east-1.amazonaws.com/dev/contact-us",
       {
         body: JSON.stringify({
           to: event.target.to.value,
@@ -85,8 +85,7 @@ export default function Home() {
         /* Style the submit button */
         input[type="submit"] {
           width: 100%;
-          background-color: #04aa6d;
-          color: white;
+
           padding: 14px 20px;
           margin: 8px 0;
           border: none;
@@ -136,7 +135,7 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
+          color: black;
           text-decoration: none;
         }
 
@@ -191,7 +190,7 @@ export default function Home() {
           flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;
-          color: inherit;
+          color: black;
           text-decoration: none;
           border: 1px solid #eaeaea;
           border-radius: 10px;
