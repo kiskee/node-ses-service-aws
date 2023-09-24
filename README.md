@@ -78,14 +78,29 @@ This configuration sets up an AWS Lambda function named "create" that is trigger
 
 ![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/lambdaFunction.png)
 
+and this is the policy created:
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/policyForRole.png)
+
 2. Configure your email settings in the Lambda function code. Update the code to specify the sender's email address, recipient's email address, subject, and message content.
 
 ```
 We can see this conde in the index.js file inside this same repository
 ```
 
+### This solution will create a cloudformation stack
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/cloudformationDiagram.png)
 
 
+## Deploy your solution to aws
+
+Make an sls deploy to your project
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/slsDeploy.png)
+
+
+### Testing
 
 
 
