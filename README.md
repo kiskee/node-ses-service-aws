@@ -50,39 +50,45 @@ Before you begin, make sure you have the following prerequisites installed:
 ```
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2. Install dependencies:
 ```
-$ serverless deploy
+npm install
 ```
+
+3. Configure your AWS credentials using the AWS CLI:
+```
+aws configure
+```
+
+4. Start a serverless project
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/initServerless.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
