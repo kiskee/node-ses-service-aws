@@ -100,7 +100,29 @@ Make an sls deploy to your project
 ![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/slsDeploy.png)
 
 
-### Testing
+## Testing
+
+At this moment you will have an API gateway endpoint
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/apiGatewayEndpoint.png)
+
+
+### Postman Test
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/testSolution.png)
+
+And this is the result:
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/mailArrive.png)
+
+## Now we can create a front end solution to test this service
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/frontTest.png)
+
+We can see the email arrived from the front end service
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/mailArriveFrontSolution.png)
+
 
 
 
