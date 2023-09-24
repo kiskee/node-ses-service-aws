@@ -66,9 +66,23 @@ aws configure
 
 ![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/initServerless.png)
 
+## Usage
 
+### Configuration
 
+1. Update the serverless.yml file with your AWS configuration settings, such as the region and IAM roles.
 
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/serverlessYml.png)
+
+This configuration sets up an AWS Lambda function named "create" that is triggered by HTTP POST requests to the "/contact-us" endpoint, allowing you to handle contact form submissions and interact with Amazon SES for sending emails.
+
+![Image text](https://github.com/kiskee/node-ses-service-aws/blob/main/images/lambdaFunction.png)
+
+2. Configure your email settings in the Lambda function code. Update the code to specify the sender's email address, recipient's email address, subject, and message content.
+
+```
+We can see this conde in the index.js file inside this same repository
+```
 
 
 
